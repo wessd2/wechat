@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="ChangHongSRM-planning" default="prepare" basedir=".">
+	<import file="build-share.xml"/>
+	<target name="set-properties" description="设置模块属性值">
+		<property name="module.name" value="planning"/>
+		<property name="module.short.name" value="planning"/>
+		<property name="module.package" value="com/changhong/planning"/>
+		<property name="module.url" value="/planning/admin"/>
+		<property name="module.jsp.dir" value="planning/admin"/>
+	</target>
+</project>
