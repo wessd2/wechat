@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="ChangHongSRM-orderinc" default="prepare" basedir=".">
+	<import file="build-share.xml"/>
+	<target name="set-properties" description="设置模块属性值">
+		<property name="module.name" value="orderinc"/>
+		<property name="module.short.name" value="orderinc"/>
+		<property name="module.package" value="com/changhong/orderinc"/>
+		<property name="module.url" value="/orderinc/admin"/>
+		<property name="module.jsp.dir" value="orderinc/admin"/>
+	</target>
+</project>
